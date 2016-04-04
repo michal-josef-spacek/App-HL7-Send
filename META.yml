@@ -18,6 +18,7 @@ meta-spec:
 name: App-HL7-Send
 no_index:
   directory:
+    - examples
     - inc
     - t
     - xt
