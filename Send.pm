@@ -109,9 +109,13 @@ App::HL7::Send - Base class for hl7send script.
 =head1 ERRORS
 
  new():
-         Cannot process any action.
          From Class::Utils::set_params():
                  Unknown parameter '%s'.
+
+ run():
+         Cannot connect to host.
+         Cannot parse HL7 file.
+                 File: %s
 
 =head1 EXAMPLE
 
@@ -148,7 +152,7 @@ App::HL7::Send - Base class for hl7send script.
  App::HL7::Send->new->run;
 
  # Output:
- # TODO
+ Message was send.
 
 =head1 DEPENDENCIES
 
