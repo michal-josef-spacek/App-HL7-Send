@@ -19,6 +19,7 @@ MANIFEST			This list of files
 META.yml
 README
 Send.pm
+SIGNATURE
 t/App-HL7-Send/01-use.t
 t/App-HL7-Send/02-version.t
 xt/App-HL7-Send/01-pod_coverage.t
