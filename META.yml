@@ -1,5 +1,5 @@
 ---
-abstract: 'Base class for hl7send script.'
+abstract: 'Distribution for hl7send script.'
 author:
   - 'Michal Spacek <skim@cpan.org>'
 build_requires:
