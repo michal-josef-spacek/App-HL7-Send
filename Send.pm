@@ -32,7 +32,7 @@ sub new {
 	if (! getopts('h', $self->{'_opts'}) || @ARGV < 3
 		|| $self->{'_opts'}->{'h'}) {
 
-		print STDERR "Usage: $0 [-h] [--version] host port hl7_file\n";
+		print STDERR "Usage: $0 [-h] [--version] host port hl7_file|-\n";
 		print STDERR "\t-h\t\tHelp.\n";
 		print STDERR "\t--version\tPrint version.\n";
 		exit 1;
@@ -50,7 +50,14 @@ sub run {
 	my $self = shift;
 
 	# Get hl7_file.
-	my $hl7 = slurp($self->{'_hl7_file'});
+	my $hl7;
+	if ($self->{'_hl7_file'} eq '-') {
+		while (my $line = <STDIN>) {
+			$hl7 .= $line;
+		}
+	} else {
+		$hl7 = slurp($self->{'_hl7_file'});
+	}
 
 	# Create message.
 	my $msg = Net::HL7::Message->new($hl7);

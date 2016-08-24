@@ -31,7 +31,7 @@ hl7send - Script to send hl7 message file to host.
 
 =head1 SYNOPSIS
 
- hl7send [-h] [--version] host port hl7_file
+ hl7send [-h] [--version] host port hl7_file|-
 
 =head1 ARGUMENTS
 
@@ -53,9 +53,9 @@ hl7send - Script to send hl7 message file to host.
 
  Host port.
 
-=item * C<hl7_file>
+=item * C<hl7_file|->
 
- File with HL7 messages.
+ File with HL7 messages or stdin.
 
 =back
 

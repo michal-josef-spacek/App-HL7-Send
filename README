@@ -2,7 +2,7 @@ NAME
     hl7send - Script to send hl7 message file to host.
 
 SYNOPSIS
-     hl7send [-h] [--version] host port hl7_file
+     hl7send [-h] [--version] host port hl7_file|-
 
 ARGUMENTS
     *       "-h"
@@ -21,9 +21,9 @@ ARGUMENTS
 
              Host port.
 
-    *       "hl7_file"
+    *       "hl7_file|-"
 
-             File with HL7 messages.
+             File with HL7 messages or stdin.
 
 EXAMPLE
      hl7send -h
