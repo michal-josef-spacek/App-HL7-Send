@@ -185,13 +185,13 @@ L<https://github.com/tupinek/App-HL7-Send>
 
 =head1 AUTHOR
 
-Michal Špaček L<mailto:skim@cpan.org>
+Michal Josef Špaček L<mailto:skim@cpan.org>
 
 L<http://skim.cz>
 
 =head1 LICENSE AND COPYRIGHT
 
- © 2016-2017 Michal Špaček
+ © 2016-2017 Michal Josef Špaček
  BSD 2-Clause License
 
 =head1 VERSION
