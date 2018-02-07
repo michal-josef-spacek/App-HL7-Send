@@ -1,4 +1,4 @@
-0.02
+0.02 2018-02-07T08:12:09+01:00
  - Add support for sending HL7 messages from stdin.
  - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Fix link to repository in doc.
