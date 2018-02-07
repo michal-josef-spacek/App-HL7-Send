@@ -5,7 +5,7 @@ use warnings;
 
 use App::HL7::Send;
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 # Run.
 App::HL7::Send->new->run;
@@ -77,6 +77,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.02
+0.03
 
 =cut
