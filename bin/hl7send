@@ -1,13 +1,10 @@
 #!/usr/bin/env perl
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use App::HL7::Send;
 
-# Version.
 our $VERSION = 0.02;
 
 # Run.

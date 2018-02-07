@@ -1,8 +1,6 @@
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use App::HL7::Send;
 use Test::More 'tests' => 2;
 use Test::NoWarnings;

@@ -1,10 +1,8 @@
 package App::HL7::Send;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use Error::Pure qw(err);
 use Getopt::Std;
@@ -12,7 +10,6 @@ use Net::HL7::Connection;
 use Net::HL7::Message;
 use Perl6::Slurp qw(slurp);
 
-# Version.
 our $VERSION = 0.02;
 
 # Constructor.
@@ -126,11 +123,9 @@ App::HL7::Send - Base class for hl7send script.
 
 =head1 EXAMPLE
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use App::HL7::Send;
  use File::Temp qw(tempfile);
  use IO::Barf qw(barf);
