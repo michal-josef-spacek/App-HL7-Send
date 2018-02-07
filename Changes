@@ -1,5 +1,6 @@
 0.02
  - Add support for sending HL7 messages from stdin.
+ - Fix Makefile.PL for new version of Perl and no default »use lib '.'«.
  - Fix link to repository in doc.
  - Update Module::Install to 1.19 version.
  - Update author name.
