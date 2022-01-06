@@ -1,4 +1,5 @@
 0.03
+ - Add test for constructor.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Move argument processing to run() method.
  - Update copyright years.
