@@ -38,7 +38,7 @@ sub run {
 		|| $self->{'_opts'}->{'h'}) {
 
 		print STDERR "Usage: $0 [-h] [--version] host port hl7_file|-\n";
-		print STDERR "\t-h\t\tHelp.\n";
+		print STDERR "\t-h\t\tPrint help.\n";
 		print STDERR "\t--version\tPrint version.\n";
 		return 1;
 	}
