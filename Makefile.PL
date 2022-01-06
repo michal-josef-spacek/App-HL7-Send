@@ -29,8 +29,11 @@ resources 'bugtracker' => 'https://rt.cpan.org/Public/Dist/Display.html'.
 	'?Name=App-HL7-Send';
 resources 'homepage' => 'https://github.com/tupinek/App-HL7-Send';
 resources 'repository' => 'git://github.com/tupinek/App-HL7-Send';
+test_requires 'File::Object' => 0;
+test_requires 'File::Spec::Functions' => 0;
 test_requires 'Test::More' => 0;
 test_requires 'Test::NoWarnings' => 0;
+test_requires 'Test::Output' => 0;
 tests_recursive;
 version '0.03';
 

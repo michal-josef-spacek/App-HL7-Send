@@ -1,5 +1,6 @@
 0.03
  - Add test for constructor.
+ - Add test for help.
  - Improve LICENSE AND COPYRIGHT section in doc.
  - Improve help message.
  - Move argument processing to run() method.
