@@ -22,6 +22,14 @@ sub new {
 	# Process params.
 	set_params($self, @params);
 
+	# Object.
+	return $self;
+}
+
+# Run.
+sub run {
+	my $self = shift;
+
 	# Process arguments.
 	$self->{'_opts'} = {
 		'h' => 0,
@@ -32,19 +40,11 @@ sub new {
 		print STDERR "Usage: $0 [-h] [--version] host port hl7_file|-\n";
 		print STDERR "\t-h\t\tHelp.\n";
 		print STDERR "\t--version\tPrint version.\n";
-		exit 1;
+		return 1;
 	}
 	$self->{'_hl7_host'} = $ARGV[0];
 	$self->{'_hl7_port'} = $ARGV[1];
 	$self->{'_hl7_file'} = $ARGV[2];
-
-	# Object.
-	return $self;
-}
-
-# Run.
-sub run {
-	my $self = shift;
 
 	# Get hl7_file.
 	my $hl7;
