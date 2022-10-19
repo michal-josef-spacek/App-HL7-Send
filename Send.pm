@@ -92,6 +92,7 @@ App::HL7::Send - Base class for hl7send script.
 =head1 SYNOPSIS
 
  use App::HL7::Send;
+
  my $app = App::HL7::Send->new;
  my $exit_code = $app->run;
 
