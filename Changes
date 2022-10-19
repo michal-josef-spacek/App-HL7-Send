@@ -1,5 +1,6 @@
 0.04
  - Rename example to better name.
+ - Rewrite bugtracker to github.
  - Rewrite Send to use =head2 in POD.
  - run() returns exit code.
 
