@@ -98,18 +98,21 @@ App::HL7::Send - Base class for hl7send script.
 
 =head1 METHODS
 
-=over 8
+=head2 C<new>
 
-=item C<new()>
+ my $app = App::HL7::Send->new;
 
- Constructor.
+Constructor.
 
-=item C<run()>
+Returns instance of object.
 
- Run method.
- Returns undef.
+=head2 C<run>
 
-=back
+ my $exit_code = $app->run;
+
+Run method.
+
+Returns 1 for error, 0 for success.
 
 =head1 ERRORS
 
