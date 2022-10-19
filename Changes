@@ -1,5 +1,6 @@
 0.04
  - Rename example to better name.
+ - run() returns exit code.
 
 0.03 2022-01-06T15:05:35+01:00
  - Add test for constructor.

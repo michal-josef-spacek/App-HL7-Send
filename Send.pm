@@ -73,7 +73,7 @@ sub run {
 	$conn->send($msg);
 	print "Message was send.\n";
 
-	return;
+	return 0;
 }
 
 1;
@@ -93,7 +93,7 @@ App::HL7::Send - Base class for hl7send script.
 
  use App::HL7::Send;
  my $app = App::HL7::Send->new;
- $app->run;
+ my $exit_code = $app->run;
 
 =head1 METHODS
 
