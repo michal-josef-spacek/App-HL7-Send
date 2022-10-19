@@ -123,6 +123,8 @@ App::HL7::Send - Base class for hl7send script.
 
 =head1 EXAMPLE
 
+=for comment filename=send_test_orm_to_dcm4chee.pl
+
  use strict;
  use warnings;
 
