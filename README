@@ -29,7 +29,7 @@ EXAMPLE
      hl7send -h
 
 REPOSITORY
-    <https://github.com/tupinek/App-HL7-Send>
+    <https://github.com/michal-josef-spacek/App-HL7-Send>
 
 AUTHOR
     Michal Josef Špaček <mailto:skim@cpan.org>

@@ -182,7 +182,7 @@ L<Perl6::Slurp>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/App-HL7-Send>
+L<https://github.com/michal-josef-spacek/App-HL7-Send>
 
 =head1 AUTHOR
 
