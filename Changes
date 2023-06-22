@@ -1,5 +1,6 @@
 0.05
  - Fix test of run on Windows.
+ - Update Module::Install to 1.21 version.
 
 0.04 2022-10-19T09:21:05+02:00
  - Rename example to better name.
